@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deandra 17th Birthday</title>
+  <title>Undangan Deandra</title>
+
   <style>
     body {
       margin: 0;
-      background: #f4f4f4;
+      padding: 0;
     }
     iframe {
-      border: none;
       width: 100%;
       height: 100vh;
+      border: none;
     }
   </style>
 </head>
+
 <body>
 
-  <audio autoplay loop>
+  <!-- MUSIK BACKGROUND -->
+  <audio id="bgm" autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
   </audio>
 
-  <iframe 
-    src="https://shasn.my.canva.site/deandra-birthday-" 
+  <!-- UNDANGAN CANVA -->
+  <iframe
+    src="https://shasn.my.canva.site/deandra-birthday-"
     allow="autoplay">
   </iframe>
 
