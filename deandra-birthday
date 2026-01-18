@@ -4,32 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Undangan Deandra</title>
-
   <style>
     body {
       margin: 0;
-      padding: 0;
-    }
-    iframe {
-      width: 100%;
       height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .box {
+      padding: 30px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 14px 30px;
+      font-size: 16px;
       border: none;
+      border-radius: 25px;
+      background: #333;
+      color: white;
     }
   </style>
 </head>
-
 <body>
 
-  <!-- MUSIK BACKGROUND -->
-  <audio id="bgm" autoplay loop>
+  <audio autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
   </audio>
 
-  <!-- UNDANGAN CANVA -->
-  <iframe
-    src="https://shasn.my.canva.site/deandra-birthday-"
-    allow="autoplay">
-  </iframe>
+  <div class="box">
+    <h2>Undangan Ulang Tahun</h2>
+    <h1>Deandra Alissya Setiawan</h1>
+    <p>17 Tahun · 7 Februari 2026</p>
+
+    <button onclick="window.location.href='https://shasn.my.canva.site/deandra-birthday-'">
+      Buka Undangan
+    </button>
+  </div>
 
 </body>
 </html>
